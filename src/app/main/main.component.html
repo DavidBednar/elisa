@@ -1,0 +1,77 @@
+<mat-sidenav-container>
+
+    <div id="elisa-main-content">
+
+        <!-- TOOLBAR: Above -->
+        <ng-container *ngIf="elisaSettings.layout.toolbar === 'above'">
+            <elisa-toolbar class="above" [ngClass]="elisaSettings.colorClasses.toolbar"></elisa-toolbar>
+        </ng-container>
+        <!-- / TOOLBAR: Above -->
+
+        <!-- NAVBAR: Top -->
+        <elisa-navbar layout="horizontal"
+                     class="top-navbar" fxHide fxShow.gt-md
+                     [ngClass]="elisaSettings.colorClasses.navbar"
+                     *ngIf="elisaSettings.layout.navigation === 'top'">
+        </elisa-navbar>
+        <!-- / NAVBAR: Top -->
+
+        <div id="wrapper">
+
+            <!-- NAVBAR: Left -->
+            <elisa-sidebar [name]="'navbar'"
+                          [folded]="elisaSettings.layout.navigationFolded"
+                          [lockedOpen]="'gt-md'"
+                          class="left-navbar" [ngClass]="elisaSettings.colorClasses.navbar"
+                          *ngIf="elisaSettings.layout.navigation === 'left' || elisaSettings.layout.navigation === 'top'">
+                <elisa-navbar layout="vertical"></elisa-navbar>
+            </elisa-sidebar>
+            <!-- / NAVBAR: Left -->
+
+            <div class="content-wrapper">
+
+                <!-- TOOLBAR: Below -->
+                <ng-container *ngIf="elisaSettings.layout.toolbar === 'below'">
+                    <elisa-toolbar class="below" [ngClass]="elisaSettings.colorClasses.toolbar"></elisa-toolbar>
+                </ng-container>
+                <!-- / TOOLBAR: Below -->
+
+                <elisa-content></elisa-content>
+
+                <!-- FOOTER: Below -->
+                <ng-container *ngIf="elisaSettings.layout.footer === 'below'">
+                    <elisa-footer class="below" [ngClass]="elisaSettings.colorClasses.footer"></elisa-footer>
+                </ng-container>
+                <!-- / FOOTER: Below -->
+
+            </div>
+
+            <!-- NAVBAR: Right -->
+            <elisa-sidebar [name]="'navbar'" [align]="'right'"
+                          [folded]="elisaSettings.layout.navigationFolded"
+                          [lockedOpen]="'gt-md'"
+                          class="right-navbar" [ngClass]="elisaSettings.colorClasses.navbar"
+                          *ngIf="elisaSettings.layout.navigation === 'right'">
+                <elisa-navbar layout="vertical"></elisa-navbar>
+            </elisa-sidebar>
+            <!-- / NAVBAR: Right -->
+
+        </div>
+
+        <!-- FOOTER: Above -->
+        <ng-container *ngIf="elisaSettings.layout.footer === 'above'">
+            <elisa-footer class="above" [ngClass]="elisaSettings.colorClasses.footer"></elisa-footer>
+        </ng-container>
+        <!-- FOOTER: Above -->
+
+    </div>
+
+    <!-- QUICK PANEL -->
+    <mat-sidenav elisaMatSidenavHelper="quick-panel" align="end">
+        <elisa-quick-panel></elisa-quick-panel>
+    </mat-sidenav>
+    <!-- / QUICK PANEL -->
+
+</mat-sidenav-container>
+
+<elisa-theme-options></elisa-theme-options>
