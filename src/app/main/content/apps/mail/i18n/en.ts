@@ -1,7 +1,7 @@
 export const locale = {
     lang: 'en',
     data: {
-        'MAIL': {
+        'MAILBOX': {
             'COMPOSE'                 : 'COMPOSE',
             'FOLDERS'                 : 'FOLDERS',
             'FILTERS'                 : 'FILTERS',

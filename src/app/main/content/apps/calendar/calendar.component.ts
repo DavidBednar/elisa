@@ -212,7 +212,7 @@ export class ElisaCalendarComponent implements OnInit
                      * Save
                      */
                     case 'save':
-
+                        console.log('[SAVE formData]', formData.getRawValue())
                         this.events[eventIndex] = Object.assign(this.events[eventIndex], formData.getRawValue());
                         this.refresh.next(true);
 

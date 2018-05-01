@@ -25,7 +25,7 @@ export class ElisaMailComposeDialogComponent
     {
         return new FormGroup({
             from   : new FormControl({
-                value   : 'johndoe@creapond.com',
+                value   : 'elisa@elisa.com',
                 disabled: true
             }),
             to     : new FormControl(''),

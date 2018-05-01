@@ -49,8 +49,8 @@ export class ElisaThemeOptionsComponent implements OnInit, OnDestroy
         const nav: any = navigation;
 
         nav.push({
-            'id'      : 'custom-function',
-            'title'   : 'Custom Function',
+            'id'      : 'customization',
+            'title'   : 'Customization',
             'type'    : 'group',
             'children': [
                 {

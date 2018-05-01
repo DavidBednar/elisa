@@ -10,17 +10,9 @@ import { ResetPasswordModule } from './authentication/reset-password/reset-passw
 import { ResetPassword2Module } from './authentication/reset-password-2/reset-password-2.module';
 import { LockModule } from './authentication/lock/lock.module';
 import { MailConfirmModule } from './authentication/mail-confirm/mail-confirm.module';
-import { ComingSoonModule } from './coming-soon/coming-soon.module';
-import { Error404Module } from './errors/404/error-404.module';
-import { Error500Module } from './errors/500/error-500.module';
-import { InvoiceCompactModule } from './invoices/compact/compact.module';
-import { InvoiceModernModule } from './invoices/modern/modern.module';
 import { MaintenanceModule } from './maintenance/maintenence.module';
-import { PricingModule } from './pricing/pricing.module';
 import { ProfileModule } from './profile/profile.module';
 import { SearchModule } from './search/search.module';
-import { FaqModule } from './faq/faq.module';
-import { KnowledgeBaseModule } from './knowledge-base/knowledge-base.module';
 
 @NgModule({
     imports: [
@@ -36,34 +28,15 @@ import { KnowledgeBaseModule } from './knowledge-base/knowledge-base.module';
         LockModule,
         MailConfirmModule,
 
-        // Coming-soon
-        ComingSoonModule,
-
-        // Errors
-        Error404Module,
-        Error500Module,
-
-        // Invoices
-        InvoiceModernModule,
-        InvoiceCompactModule,
-
         // Maintenance
         MaintenanceModule,
-
-        // Pricing
-        PricingModule,
 
         // Profile
         ProfileModule,
 
         // Search
         SearchModule,
-
-        // Faq
-        FaqModule,
-
-        // Knowledge base
-        KnowledgeBaseModule
+        
     ]
 })
 export class ElisaPagesModule

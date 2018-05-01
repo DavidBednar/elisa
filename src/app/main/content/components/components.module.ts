@@ -13,7 +13,6 @@ import { ElisaCardsDocsComponent } from './cards/cards.component';
 import { ElisaCountdownDocsComponent } from './countdown/countdown.component';
 import { ElisaHighlightDocsComponent } from './highlight/highlight.component';
 import { ElisaMaterialColorPickerDocsComponent } from './material-color-picker/material-color-picker.component';
-import { ElisaMultiLanguageDocsComponent } from './multi-language/multi-language.component';
 import { ElisaNavigationDocsComponent } from './navigation/navigation.component';
 import { ElisaSearchBarDocsComponent } from './search-bar/search-bar.component';
 import { ElisaSidebarDocsComponent } from './sidebar/sidebar.component';
@@ -36,10 +35,6 @@ const routes = [
     {
         path     : 'material-color-picker',
         component: ElisaMaterialColorPickerDocsComponent
-    },
-    {
-        path     : 'multi-language',
-        component: ElisaMultiLanguageDocsComponent
     },
     {
         path     : 'navigation',
@@ -69,7 +64,6 @@ const routes = [
         ElisaCountdownDocsComponent,
         ElisaHighlightDocsComponent,
         ElisaMaterialColorPickerDocsComponent,
-        ElisaMultiLanguageDocsComponent,
         ElisaNavigationDocsComponent,
         ElisaSearchBarDocsComponent,
         ElisaSidebarDocsComponent,

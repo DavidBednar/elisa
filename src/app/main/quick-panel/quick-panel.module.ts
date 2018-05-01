@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MatDividerModule, MatListModule, MatSlideToggleModule } from '@angular/material';
+import { MatDividerModule, MatListModule, MatSlideToggleModule, MatTooltipModule } from '@angular/material';
 
 import { ElisaSharedModule } from '@elisa/shared.module';
 
@@ -16,6 +16,7 @@ import { ElisaQuickPanelComponent } from 'app/main/quick-panel/quick-panel.compo
         MatDividerModule,
         MatListModule,
         MatSlideToggleModule,
+        MatTooltipModule,
 
         ElisaSharedModule,
     ],

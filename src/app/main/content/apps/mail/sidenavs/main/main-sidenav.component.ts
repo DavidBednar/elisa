@@ -34,8 +34,8 @@ export class ElisaMailMainSidenavComponent implements OnInit, OnDestroy
     {
         // Data
         this.accounts = {
-            'creapond'    : 'johndoe@creapond.com',
-            'withinpixels': 'johndoe@withinpixels.com'
+            'creapond'    : 'elisa@elisa.com',
+            'withinpixels': 'elisa@elisa.com'
         };
 
         this.selectedAccount = 'creapond';

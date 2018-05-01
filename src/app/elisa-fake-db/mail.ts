@@ -11,7 +11,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -59,7 +59,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -82,7 +82,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -108,7 +108,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -134,7 +134,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -157,7 +157,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -182,7 +182,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -205,7 +205,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -228,7 +228,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -251,7 +251,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -274,7 +274,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -297,7 +297,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -320,7 +320,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -343,7 +343,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -366,7 +366,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -389,7 +389,7 @@ export class MailFakeDb
             'to'            : [
                 {
                     'name' : 'me',
-                    'email': 'johndoe@creapond.com'
+                    'email': 'elisa@elisa.com'
                 }
             ],
             'subject'       : 'Commits that need to be pushed lorem ipsum dolor sit amet, consectetur adipiscing elit.',

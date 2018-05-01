@@ -61,13 +61,13 @@ export class ElisaShortcutsComponent implements OnInit, OnDestroy
             // User's shortcut items
             this.shortcutItems = [
                 {
-                    'title': 'Calendar',
+                    'title': 'Profile',
                     'type' : 'nav-item',
-                    'icon' : 'today',
-                    'url'  : '/apps/calendar'
+                    'icon' : 'person',
+                    'url'  : '/pages/profile'
                 },
                 {
-                    'title': 'Mail',
+                    'title': 'Mailbox',
                     'type' : 'nav-item',
                     'icon' : 'email',
                     'url'  : '/apps/mail'
@@ -77,12 +77,6 @@ export class ElisaShortcutsComponent implements OnInit, OnDestroy
                     'type' : 'nav-item',
                     'icon' : 'account_box',
                     'url'  : '/apps/contacts'
-                },
-                {
-                    'title': 'To-Do',
-                    'type' : 'nav-item',
-                    'icon' : 'check_box',
-                    'url'  : '/apps/todo'
                 }
             ];
         }

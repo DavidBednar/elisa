@@ -8,7 +8,7 @@
     </div>
 
     <div class="account" fxLayout="column" *elisaIfOnDom [@animate]="{value:'*',params:{delay:'300ms'}}">
-        <div class="title">John Doe</div>
+        <div class="title">elisa</div>
         <mat-form-field floatPlaceholder="never">
             <mat-select class="account-selection" placeholder="Mail Selection"
                         [ngModel]="selectedAccount">
@@ -30,13 +30,13 @@
                 class="mat-accent compose-dialog-button"
                 (click)="composeDialog()"
                 aria-label="Compose">
-            {{ 'MAIL.COMPOSE' | translate }}
+            {{ 'MAILBOX.COMPOSE' | translate }}
         </button>
     </div>
 
     <div class="nav">
 
-        <div class="nav-subheader">{{ 'MAIL.FOLDERS' | translate }}</div>
+        <div class="nav-subheader">{{ 'MAILBOX.FOLDERS' | translate }}</div>
 
         <div class="nav-item" *ngFor="let folder of folders">
             <a class="nav-link" matRipple [routerLink]="'/apps/mail/' + folder.handle" routerLinkActive="active">
@@ -45,7 +45,7 @@
             </a>
         </div>
 
-        <div class="nav-subheader">{{ 'MAIL.FILTERS' | translate }}</div>
+        <div class="nav-subheader">{{ 'MAILBOX.FILTERS' | translate }}</div>
 
         <div class="nav-item" *ngFor="let filter of filters">
             <a class="nav-link" matRipple [routerLink]="'/apps/mail/filter/' + filter.handle" routerLinkActive="active">
@@ -54,7 +54,7 @@
             </a>
         </div>
 
-        <div class="nav-subheader">{{ 'MAIL.LABELS' | translate }}</div>
+        <div class="nav-subheader">{{ 'MAILBOX.LABELS' | translate }}</div>
 
         <div class="nav-item" *ngFor="let label of labels">
             <a class="nav-link" matRipple [routerLink]="'/apps/mail/label/' + label.handle" routerLinkActive="active">

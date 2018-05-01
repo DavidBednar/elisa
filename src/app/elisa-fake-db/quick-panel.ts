@@ -2,31 +2,23 @@ export class QuickPanelFakeDb
 {
     public static notes = [
         {
-            'title' : 'Best songs to listen while working',
-            'detail': 'Last edit: May 8th, 2015'
+            'title' : 'Resolve "Cryptography" collision on Monday',
+            'detail': 'Last edit: May 1st, 2018'
         },
         {
-            'title' : 'Useful subreddits',
-            'detail': 'Last edit: January 12th, 2015'
+            'title' : 'Add "Special ROBOCUP event" to schedule',
+            'detail': 'Last edit: April 30th, 2018'
         }
     ];
 
     public static events = [
         {
-            'title' : 'Group Meeting',
-            'detail': 'In 32 Minutes, Room 1B'
+            'title' : 'School Board Meeting',
+            'detail': 'In 32 Minutes, Room BC35'
         },
         {
-            'title' : 'Public Beta Release',
-            'detail': '11:00 PM'
-        },
-        {
-            'title' : 'Dinner with David',
-            'detail': '17:30 PM'
-        },
-        {
-            'title' : 'Q&A Session',
-            'detail': '20:30 PM'
+            'title' : 'Resolve schedule conflicts for students',
+            'detail': '1:00 PM to 3:00 PM'
         }
     ];
 }

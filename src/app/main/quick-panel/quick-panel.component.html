@@ -24,7 +24,7 @@
     </h3>
 
     <mat-list-item *ngFor="let event of events">
-        <h3 matLine>{{event.title}}</h3>
+        <h3 matLine matTooltip="{{event.title}}">{{event.title}}</h3>
         <p matLine class="secondary-text">{{event.detail}}</p>
     </mat-list-item>
 </mat-list>
@@ -37,7 +37,7 @@
     </h3>
 
     <mat-list-item *ngFor="let note of notes">
-        <h3 matLine>{{note.title}}</h3>
+        <h3 matLine matTooltip="{{note.title}}">{{note.title}}</h3>
         <p matLine class="secondary-text">{{note.detail}}</p>
     </mat-list-item>
 </mat-list>
@@ -53,20 +53,6 @@
         <mat-slide-toggle fxFlex class="mat-primary" [(ngModel)]="settings.notify" aria-label="Notifications"
                           labelPosition="before">
             <h3>Notifications</h3>
-        </mat-slide-toggle>
-    </mat-list-item>
-
-    <mat-list-item>
-        <mat-slide-toggle fxFlex class="mat-accent" [(ngModel)]="settings.cloud" aria-label="Cloud"
-                          labelPosition="before">
-            <h3>Cloud Sync</h3>
-        </mat-slide-toggle>
-    </mat-list-item>
-
-    <mat-list-item>
-        <mat-slide-toggle fxFlex class="mat-warn" [(ngModel)]="settings.retro" aria-label="Retro Thrusters"
-                          labelPosition="before">
-            <h3>Retro Thrusters</h3>
         </mat-slide-toggle>
     </mat-list-item>
 </mat-list>

@@ -60,11 +60,6 @@ export class ElisaToolbarComponent
                 'id'   : 'en',
                 'title': 'English',
                 'flag' : 'us'
-            },
-            {
-                'id'   : 'tr',
-                'title': 'Turkish',
-                'flag' : 'tr'
             }
         ];
 

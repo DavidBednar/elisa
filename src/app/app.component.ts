@@ -6,7 +6,6 @@ import { ElisaTranslationLoaderService } from '@elisa/services/translation-loade
 import { ElisaNavigationService } from '@elisa/components/navigation/navigation.service';
 
 import { locale as navigationEnglish } from './navigation/i18n/en';
-import { locale as navigationTurkish } from './navigation/i18n/tr';
 
 @Component({
     selector   : 'elisa-root',
@@ -29,7 +28,7 @@ export class AppComponent
         this.translate.setDefaultLang('en');
 
         // Set the navigation translations
-        this.elisaTranslationLoader.loadTranslations(navigationEnglish, navigationTurkish);
+        this.elisaTranslationLoader.loadTranslations(navigationEnglish);
 
         // Use a language
         this.translate.use('en');

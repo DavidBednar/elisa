@@ -19,10 +19,6 @@ const routes = [
         loadChildren: './mail/mail.module#ElisaMailModule'
     },
     {
-        path        : 'mail-ngrx',
-        loadChildren: './mail-ngrx/mail.module#ElisaMailNgrxModule'
-    },
-    {
         path        : 'chat',
         loadChildren: './chat/chat.module#ElisaChatModule'
     },
@@ -31,29 +27,9 @@ const routes = [
         loadChildren: './calendar/calendar.module#ElisaCalendarModule'
     },
     {
-        path        : 'e-commerce',
-        loadChildren: './e-commerce/e-commerce.module#ElisaEcommerceModule'
-    },
-    {
-        path        : 'academy',
-        loadChildren: './academy/academy.module#ElisaAcademyModule'
-    },
-    {
-        path        : 'todo',
-        loadChildren: './todo/todo.module#ElisaTodoModule'
-    },
-    {
-        path        : 'file-manager',
-        loadChildren: './file-manager/file-manager.module#ElisaFileManagerModule'
-    },
-    {
         path        : 'contacts',
         loadChildren: './contacts/contacts.module#ElisaContactsModule'
     },
-    {
-        path        : 'scrumboard',
-        loadChildren: './scrumboard/scrumboard.module#ElisaScrumboardModule'
-    }
 ];
 
 @NgModule({

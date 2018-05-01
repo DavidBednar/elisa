@@ -17,9 +17,9 @@ export class CalendarFakeDb
             id  : 'events',
             data: [
                 {
-                    start    : subDays(startOfDay(new Date()), 1),
-                    end      : addDays(new Date(), 1),
-                    title    : 'A 3 day event',
+                    start    : addHours(startOfDay(new Date()), 9),
+                    end      : addHours(startOfDay(new Date()), 11),
+                    title    : 'Cryptography',
                     allDay   : false,
                     color    : {
                         primary  : '#ad2121',
@@ -31,13 +31,14 @@ export class CalendarFakeDb
                     },
                     draggable: true,
                     meta     : {
-                        location: 'Los Angeles',
-                        notes   : 'Eos eu verear adipiscing, ex ornatus denique iracundia sed, quodsi oportere appellantur an pri.'
+                        location: 'BC150',
+                        notes   : 'Cryptography in BC150'
                     }
                 },
                 {
-                    start    : startOfDay(new Date()),
-                    title    : 'An event with no end date',
+                    start    : addHours(startOfDay(new Date()), 11),
+                    end      : addHours(startOfDay(new Date()), 13),
+                    title    : 'Statistics',
                     allDay   : false,
                     color    : {
                         primary  : '#e3bc08',
@@ -49,14 +50,14 @@ export class CalendarFakeDb
                     },
                     draggable: true,
                     meta     : {
-                        location: 'Los Angeles',
-                        notes   : 'Eos eu verear adipiscing, ex ornatus denique iracundia sed, quodsi oportere appellantur an pri.'
+                        location: 'CD300',
+                        notes   : 'Statistics in CD300'
                     }
                 },
                 {
                     start    : subDays(endOfMonth(new Date()), 3),
                     end      : addDays(endOfMonth(new Date()), 3),
-                    title    : 'A long event that spans 2 months',
+                    title    : 'Special everyday conference',
                     allDay   : false,
                     color    : {
                         primary  : '#1e90ff',
@@ -68,14 +69,14 @@ export class CalendarFakeDb
                     },
                     draggable: true,
                     meta     : {
-                        location: 'Los Angeles',
-                        notes   : 'Eos eu verear adipiscing, ex ornatus denique iracundia sed, quodsi oportere appellantur an pri.'
+                        location: 'AB300',
+                        notes   : 'Special everyday conference in AB300'
                     }
                 },
                 {
-                    start    : addHours(startOfDay(new Date()), 2),
-                    end      : new Date(),
-                    title    : 'A draggable and resizable event',
+                    start    : addHours(startOfDay(new Date()), 13),
+                    end      : addHours(startOfDay(new Date()), 15),
+                    title    : 'Design and cryptanalysis of ciphers',
                     allDay   : false,
                     color    : {
                         primary  : '#e3bc08',
@@ -87,8 +88,8 @@ export class CalendarFakeDb
                     },
                     draggable: true,
                     meta     : {
-                        location: 'Los Angeles',
-                        notes   : 'Eos eu verear adipiscing, ex ornatus denique iracundia sed, quodsi oportere appellantur an pri.'
+                        location: 'CD150',
+                        notes   : 'Design and cryptanalysis of ciphers in CD150'
                     }
                 }
             ]

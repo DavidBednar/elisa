@@ -18,9 +18,7 @@ export class ElisaQuickPanelComponent implements OnInit
     {
         this.date = new Date();
         this.settings = {
-            notify: true,
-            cloud : false,
-            retro : true
+            notify: true
         };
     }
 

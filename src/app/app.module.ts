@@ -27,20 +27,12 @@ const appRoutes: Routes = [
         loadChildren: './main/content/pages/pages.module#ElisaPagesModule'
     },
     {
-        path        : 'ui',
-        loadChildren: './main/content/ui/ui.module#ElisaUIModule'
-    },
-    {
         path        : 'services',
         loadChildren: './main/content/services/services.module#ElisaServicesModule'
     },
     {
         path        : 'components',
         loadChildren: './main/content/components/components.module#ElisaComponentsModule'
-    },
-    {
-        path        : 'components-third-party',
-        loadChildren: './main/content/components-third-party/components-third-party.module#ElisaComponentsThirdPartyModule'
     },
     {
         path      : '**',

@@ -9,7 +9,6 @@ import { ElisaTranslationLoaderService } from '@elisa/services/translation-loade
 import { Mail } from './mail.model';
 import { MailService } from './mail.service';
 import { locale as english } from './i18n/en';
-import { locale as turkish } from './i18n/tr';
 
 @Component({
     selector   : 'elisa-mail',
@@ -38,7 +37,7 @@ export class ElisaMailComponent implements OnInit, OnDestroy
     )
     {
         this.searchInput = new FormControl('');
-        this.elisaTranslationLoader.loadTranslations(english, turkish);
+        this.elisaTranslationLoader.loadTranslations(english);
     }
 
     ngOnInit()
