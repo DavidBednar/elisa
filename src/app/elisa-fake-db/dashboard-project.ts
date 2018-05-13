@@ -1936,7 +1936,7 @@ export class ProjectDashboardDb
                     'rainProbability': '90%',
                     'next3Days'      : [
                         {
-                            'name': 'Saterday',
+                            'name': 'Saturday',
                             'icon': 'icon-rainy',
                             'temp': {
                                 'C': '19'
