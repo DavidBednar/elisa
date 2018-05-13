@@ -18,41 +18,43 @@ export class ProjectDashboardDb
     public static widgets = {
         'widget1'      : {
             'ranges'      : {
-                'DY' : 'Yesterday',
-                'DT' : 'Today',
-                'DTM': 'Tomorrow'
+                'DT' : 'Today'
             },
             'currentRange': 'DT',
             'data'        : {
-                'label': 'DUE TASKS',
+                'label': 'Collisions',
                 'count': {
-                    'DY' : 21,
-                    'DT' : 25,
-                    'DTM': 19
+                    'DT' : 25
                 },
                 'extra': {
-                    'label': 'Completed',
+                    'label': 'Hard collisions',
                     'count': {
-                        'DY' : 6,
-                        'DT' : 7,
-                        'DTM': '-'
+                        'DT' : 7
                     }
 
                 }
             },
-            'detail'      : 'You can show some detailed information about this widget in here.'
+            'detail'      : 'Number of class collisions in schedule that need to be resolved.'
         },
         'widget2'      : {
-            'title' : 'Overdue',
-            'data'  : {
-                'label': 'TASKS',
-                'count': 4,
+            'ranges'      : {
+                'DT' : 'Today'
+            },
+            'currentRange': 'DT',
+            'data'        : {
+                'label': 'Change requests',
+                'count': {
+                    'DT' : 17
+                },
                 'extra': {
-                    'label': 'Yesterday\'s overdue',
-                    'count': 2
+                    'label': 'Urgent',
+                    'count': {
+                        'DT' : 6
+                    }
+
                 }
             },
-            'detail': 'You can show some detailed information about this widget in here.'
+            'detail': 'Number of change requests in schedule.'
         },
         'widget3'      : {
             'title' : 'Issues',
@@ -1148,64 +1150,36 @@ export class ProjectDashboardDb
             'schedule': {
                 'T' : [
                     {
-                        'title'   : 'Group Meeting',
+                        'title'   : 'School Board Meeting',
                         'time'    : 'In 32 minutes',
-                        'location': 'Room 1B'
+                        'location': 'Room BC35'
                     },
                     {
-                        'title': 'Coffee Break',
-                        'time' : '10:30 AM'
+                        'title'   : 'Resolve schedule conflicts for students',
+                        'time'    : '1:00 PM to 3:00 PM'
                     },
                     {
-                        'title': 'Public Beta Release',
-                        'time' : '11:00 AM'
+                        'title'   : 'Meeting A',
+                        'time'    : '1:00 PM to 3:00 PM',
+                        'location': 'Room AB300'
                     },
                     {
-                        'title': 'Lunch',
-                        'time' : '12:10 PM'
+                        'title'   : 'Meeting B',
+                        'time'    : '1:00 PM to 3:00 PM',
+                        'location': 'Room BC300'
                     },
-                    {
-                        'title': 'Dinner with David',
-                        'time' : '17:30 PM'
-                    },
-                    {
-                        'title': 'Jane\'s Birthday Party',
-                        'time' : '19:30 PM'
-                    },
-                    {
-                        'title': 'Overseer\'s Retirement Party',
-                        'time' : '21:30 PM'
-                    }
+                    
                 ],
                 'TM': [
                     {
-                        'title': 'Marketing Meeting',
-                        'time' : '09:00 AM'
+                        'title'   : 'School Board Meeting',
+                        'time'    : 'Tomorrow',
+                        'location': 'Room BC35'
                     },
                     {
-                        'title': 'Public Announcement',
-                        'time' : '11:00 AM'
+                        'title'   : 'Resolve schedule conflicts for students',
+                        'time'    : '1:00 PM to 3:00 PM'
                     },
-                    {
-                        'title': 'Lunch',
-                        'time' : '12:10 PM'
-                    },
-                    {
-                        'title': 'Meeting with Beta Testers',
-                        'time' : '15:00 AM'
-                    },
-                    {
-                        'title': 'Live Stream',
-                        'time' : '17:30 PM'
-                    },
-                    {
-                        'title': 'Release Party',
-                        'time' : '19:30 PM'
-                    },
-                    {
-                        'title': 'CEO\'s Party',
-                        'time' : '22:30 PM'
-                    }
                 ]
             }
         },
@@ -1949,48 +1923,43 @@ export class ProjectDashboardDb
         },
         'weatherWidget': {
             'locations'      : {
-                'NewYork': {
-                    'name'           : 'New York',
+                'Bratislava': {
+                    'name'           : 'Bratislava',
                     'icon'           : 'icon-rainy2',
                     'temp'           : {
-                        'C': '22',
-                        'F': '72'
+                        'C': '23'
                     },
                     'windSpeed'      : {
-                        'KMH': 12,
-                        'MPH': 7.5
+                        'KMH': 10
                     },
                     'windDirection'  : 'NW',
-                    'rainProbability': '98%',
+                    'rainProbability': '90%',
                     'next3Days'      : [
                         {
-                            'name': 'Sunday',
+                            'name': 'Saterday',
                             'icon': 'icon-rainy',
                             'temp': {
-                                'C': '21',
-                                'F': '70'
+                                'C': '19'
                             }
                         },
                         {
                             'name': 'Sunday',
                             'icon': 'icon-cloudy',
                             'temp': {
-                                'C': '19',
-                                'F': '66'
+                                'C': '20'
                             }
                         },
                         {
                             'name': 'Tuesday',
                             'icon': 'icon-windy3',
                             'temp': {
-                                'C': '24',
-                                'F': '75'
+                                'C': '22'
                             }
                         }
                     ]
                 }
             },
-            'currentLocation': 'NewYork',
+            'currentLocation': 'Bratislava',
             'tempUnit'       : 'C',
             'speedUnit'      : 'KMH'
         }

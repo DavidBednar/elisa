@@ -12,9 +12,7 @@ export class CalendarService implements Resolve<any>
     onEventsUpdated = new Subject<any>();
 
     constructor(private http: HttpClient)
-    {
-
-    }
+    {}
 
     resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<any> | Promise<any> | any
     {

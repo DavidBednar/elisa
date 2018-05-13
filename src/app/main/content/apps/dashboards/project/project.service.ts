@@ -49,7 +49,7 @@ export class ProjectDashboardService implements Resolve<any>
                 }, reject);
         });
     }
-
+    
     getWidgets(): Promise<any>
     {
         return new Promise((resolve, reject) => {

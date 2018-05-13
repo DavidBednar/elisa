@@ -1,40 +1,19 @@
 export const navigation = [
     {
+        'id'       : 'dashboard',
+        'title'    : 'Dashboard',
+        'translate': 'NAV.DASHBOARD',
+        'type'     : 'item',
+        'icon'     : 'dashboard',
+        'url'  : '/apps/dashboards/project'
+    },
+    {
         'id'       : 'scheduling',
         'title'    : 'Scheduling',
         'translate': 'NAV.SCHEDULING',
         'type'     : 'group',
         'icon'     : 'apps',
         'children' : [
-            {
-                'id'       : 'dashboards',
-                'title'    : 'Dashboards',
-                'translate': 'NAV.DASHBOARDS',
-                'type'     : 'collapse',
-                'icon'     : 'dashboard',
-                'children' : [
-                    {
-                        'id'   : 'analytics',
-                        'title': 'Analytics',
-                        'type' : 'item',
-                        'url'  : '/apps/dashboards/analytics'
-                    },
-                    {
-                        'id'   : 'project',
-                        'title': 'Project',
-                        'type' : 'item',
-                        'url'  : '/apps/dashboards/project'
-                    }
-                ]
-            },
-            {
-                'id'       : 'dashboard',
-                'title'    : 'Dashboard',
-                'translate': 'NAV.DASHBOARD',
-                'type'     : 'item',
-                'icon'     : 'dashboard',
-                'url'  : '/apps/dashboards/project'
-            },
             {
                 'id'       : 'schedules_overview',
                 'title'    : 'Schedules overview',
@@ -104,16 +83,11 @@ export const navigation = [
         'translate': 'NAV.PERSONAL',
         'type'    : 'group',
         'children': [
-            {
+            /*{
                 'id'      : 'authentication',
                 'title'   : 'Authentication',
                 'type'    : 'collapse',
                 'icon'    : 'lock',
-                'badge'   : {
-                    'title': 10,
-                    'bg'   : '#525e8a',
-                    'fg'   : '#FFFFFF'
-                },
                 'children': [
                     {
                         'id'   : 'login',
@@ -122,22 +96,10 @@ export const navigation = [
                         'url'  : '/pages/auth/login'
                     },
                     {
-                        'id'   : 'login-v2',
-                        'title': 'Login v2',
-                        'type' : 'item',
-                        'url'  : '/pages/auth/login-2'
-                    },
-                    {
                         'id'   : 'register',
                         'title': 'Register',
                         'type' : 'item',
                         'url'  : '/pages/auth/register'
-                    },
-                    {
-                        'id'   : 'register-v2',
-                        'title': 'Register v2',
-                        'type' : 'item',
-                        'url'  : '/pages/auth/register-2'
                     },
                     {
                         'id'   : 'forgot-password',
@@ -146,22 +108,10 @@ export const navigation = [
                         'url'  : '/pages/auth/forgot-password'
                     },
                     {
-                        'id'   : 'forgot-password-v2',
-                        'title': 'Forgot Password v2',
-                        'type' : 'item',
-                        'url'  : '/pages/auth/forgot-password-2'
-                    },
-                    {
                         'id'   : 'reset-password',
                         'title': 'Reset Password',
                         'type' : 'item',
                         'url'  : '/pages/auth/reset-password'
-                    },
-                    {
-                        'id'   : 'reset-password-v2',
-                        'title': 'Reset Password v2',
-                        'type' : 'item',
-                        'url'  : '/pages/auth/reset-password-2'
                     },
                     {
                         'id'   : 'lock-screen',
@@ -176,7 +126,7 @@ export const navigation = [
                         'url'  : '/pages/auth/mail-confirm'
                     }
                 ]
-            },
+            },*/
             {
                 'id'   : 'profile',
                 'title': 'Profile',

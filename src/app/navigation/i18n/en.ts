@@ -2,13 +2,12 @@ export const locale = {
     lang: 'en',
     data: {
         'NAV': {
-            'SCHEDULING': 'Scheduling',
-            'DASHBOARDS'  : 'Dashboards',
             'DASHBOARD'  : 'Dashboard',
+            'SCHEDULING': 'Scheduling',
             'SCHEDULES_OVERVIEW': 'Schedules Overview',
             'CREATE_SCHEDULE': 'Create schedule',
             'COMMUNICATION': 'Communication',
-            'MAILBOX'        : {
+            'MAILBOX' : {
                 'TITLE': 'Mailbox',
                 'BADGE': '25'
             },
