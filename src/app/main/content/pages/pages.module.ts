@@ -32,6 +32,4 @@ import { SearchModule } from './search/search.module';
     ]
 })
 export class ElisaPagesModule
-{
-
-}
+{}

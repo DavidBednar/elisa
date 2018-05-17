@@ -7,10 +7,6 @@ import { ElisaSharedModule } from '@elisa/shared.module';
 
 const routes = [
     {
-        path        : 'dashboards/analytics',
-        loadChildren: './dashboards/analytics/analytics.module#ElisaAnalyticsDashboardModule'
-    },
-    {
         path        : 'dashboards/project',
         loadChildren: './dashboards/project/project.module#ElisaProjectDashboardModule'
     },
