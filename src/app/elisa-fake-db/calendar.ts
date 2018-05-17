@@ -79,8 +79,27 @@ export class CalendarFakeDb
                     title    : 'Design and cryptanalysis of ciphers',
                     allDay   : false,
                     color    : {
-                        primary  : '#e3bc08',
-                        secondary: '#FDF1BA'
+                        primary  : '#1e90ff',
+                        secondary: '#D1E8FF'
+                    },
+                    resizable: {
+                        beforeStart: true,
+                        afterEnd   : true
+                    },
+                    draggable: true,
+                    meta     : {
+                        location: 'CD150',
+                        notes   : 'Design and cryptanalysis of ciphers in CD150'
+                    }
+                },
+                {
+                    start    : addDays(addHours(startOfDay(new Date()), 9), 1),
+                    end      : addDays(addHours(startOfDay(new Date()), 11), 1),
+                    title    : 'Design and cryptanalysis of ciphers',
+                    allDay   : false,
+                    color    : {
+                        primary  : '#1e90ff',
+                        secondary: '#D1E8FF'
                     },
                     resizable: {
                         beforeStart: true,

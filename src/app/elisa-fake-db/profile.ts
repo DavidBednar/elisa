@@ -15,7 +15,7 @@ export class ProfileFakeDb
                 'https://www.fei.stuba.sk/'
             ],
             'emails'  : [
-                'peter.miklovic@stuba.sk'
+                'elisa@stuba.sk'
             ]
         }
     };

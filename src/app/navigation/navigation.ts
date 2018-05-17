@@ -20,7 +20,7 @@ export const navigation = [
                 'translate': 'NAV.SCHEDULES_OVERVIEW',
                 'type'     : 'item',
                 'icon'     : 'date_range',
-                'url'      : '/apps/calendar'
+                'url'      : '/apps/overview'
             },
             {
                 'id'       : 'create_schedule',
