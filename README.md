@@ -2,9 +2,6 @@
 
 Elisa is a prototype of timetabling system for educational instotutions.
 
-This project was set up with help of
-https://coursetro.com/posts/code/113/How-to-Build-an-Angular-5-Material-App
-
 This project was set up with the help of
 [How to Build an Angular 5 Material App](https://coursetro.com/posts/code/113/How-to-Build-an-Angular-5-Material-App)
 and [Angular - QuickStart](https://angular.io/guide/quickstart).
@@ -30,6 +27,12 @@ npm start
 * Browser will open automatically after project compilation
 * Browser will refresh automatically on any file changes
 
+or to speed up building in dev mode, run:
+
+
+```
+npm serve/s --aot
+```
 
 ### Build & bundle for production
 
